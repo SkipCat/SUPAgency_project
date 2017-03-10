@@ -1,0 +1,426 @@
+#overlay3 {
+    display: none;
+    position: fixed;
+    top:0; right: 0; bottom:0; left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+#overlay3:target {
+    display: block;
+}
+
+.popup_block {
+    background: #131313 ;
+    padding: 20px;
+    border: 1px solid black;
+    position: relative;
+    top: 0px;
+    width: 80%;
+    height: 77%;
+    margin-left: 100px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 20px red;
+    border-radius: 10px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup_block img {
+    height: 1100px;
+    width: auto;
+    margin-top: 50px;
+}
+
+img.btn_close {
+    position: absolute;
+    left: 880px;
+    top: 65px;
+    float: right;
+    margin: -55px -55px 0 0;
+    height: 50px;
+    width: auto;
+}
+
+.star-wars-text {
+    width: 250px;
+    height: 150px;
+}
+
+.discover-pathe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.discover-button {
+    text-align: center;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    border: 1px solid red;
+}
+
+.discover-button:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+    transition: 1s;
+}
+
+.desktop-podium {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-top: -40px;
+}
+
+nav {
+    display: none;
+}
+
+.img {
+    height: auto;
+    width: 250px;
+}
+
+.other-video {
+    display: none;
+}
+
+.page1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.page1-content {
+    padding-bottom: 100px;
+    display: flex;
+}
+
+.page2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.star-wars-text, .discover-button {
+    display: none;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+}
+
+.rey-picture {
+    margin-left: 150px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-header {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.trait {
+    background-color: white;
+    width: 60px;
+    height: 10px;
+}
+
+.logo-MAA {
+    width: 120px;
+    height: 90px;
+}
+
+.pathe-logo {
+    display: none;
+    width: 250px;
+    height: auto;
+}
+
+.pathe-logo-new {
+    width: 450px;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-shadow: 0 0 20px red;
+    display: inline;
+}
+
+.main-vote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.video-main {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: -30px;
+    height: 100px;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+p {
+    color: white;
+    font-size: 38px;
+}
+
+.podium{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    text-shadow: 0 0 40px red;
+}
+
+.un, .deux, .trois{
+    display: flex;
+    flex-direction: column;
+}
+
+.un {
+    margin-bottom: 70px;
+}
+
+.deux {
+    margin-bottom: 35px;
+}
+
+.plus {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 0px;
+    font-size: 60px;
+}
+
+.plus-h1 {
+    margin-top: 60px;
+    font-size: 100px;
+}
+
+.peteburne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.video-plus {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.first-column-video {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.second-column-video {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.speech-video {
+    margin-top: 40px;
+}
+
+.fb-logo {
+    height: 60px;
+    margin-left: 30px;
+}
+
+@media only screen and (min-device-width : 641px) {
+    .logo {
+        display: none;
+    }
+
+    .separation {
+        margin-top: 50px;
+        height: 80px;
+    }
+
+    .main-vote {
+        display: none;
+    }
+
+    .menu-header {
+        display: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav {
+        width: 150px;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        letter-spacing: 2px;
+        color: white;
+    }
+
+    nav h2 {
+        padding: 15px;
+        border-radius: 5px;
+        border: 0px solid black;
+        text-transform: uppercase;
+    }
+
+    nav h2:hover {
+        border: 1px solid white;
+        color: black;
+        background-color: white;
+        transition: 1s;
+     }
+
+    .plus-h1 {
+        font-size: 100px;
+    }
+
+    .page3 {
+        display: none;
+    }
+
+    .plus {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 150px;
+    }
+
+    .rey-picture {
+        margin-left: 0;
+        width: 400px;
+        height: 514px;
+    }
+
+    #speechhidden{
+        display: none;
+    }
+
+    .podium{
+       margin-top: 0px;
+    }
+
+    .podium h1 {
+    margin-top: -10px;
+       margin-bottom: 10px;
+    }
+
+    .other-video {
+       display: flex;
+       height: 230px;
+       justify-content: space-around;
+       width: 100%;
+       margin-bottom: 40px;
+    }
+
+    .img {
+        height: auto;
+        width: 170px;
+    }
+
+    .speech-video {
+        margin-top: 40px;
+    }
+
+    .popup_block {
+        width: 25%;
+        height: 70%;
+        margin-left: 450px;
+    }
+
+    .popup_block img {
+        height: 420px;
+        width: auto;
+        margin-top: 0px;
+    }
+
+    img.btn_close {
+        position: absolute;
+        left: 350px;
+        top: 65px;
+        float: right;
+        margin: -55px -55px 0 0;
+        height: 20px;
+        width: auto;
+    }
+
+    .discover-button {
+        display: block;
+        font-size: 20px;
+    }
+
+    .logos-pathe-sw {
+        display: flex;
+    }
+
+    .logos-pathe-sw .pathe-logo {
+        display: block;
+    }
+
+    .logos-pathe-sw .pathe-logo-new {
+        display: none;
+    }
+
+    .star-wars-text {
+        display: flex;
+    }
+}
